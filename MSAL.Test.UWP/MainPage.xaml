@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="MSAL.Test.UWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MSAL.Test.UWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Padding="10" Spacing="15" Width="800" Margin="0,51,0,286">
+            <Button x:Name="signInButton" Content="Sign In" Height="85"  VerticalAlignment="Top" Width="201" Click="signInButton_Click"/>
+            <TextBlock x:Name="resultText" Height="100"/>
+            <Button x:Name="signOutButton" Content="Sign Out" Height="85"  VerticalAlignment="Top" Width="201" Click="signOutButton_Click"/>
+        </StackPanel>
+
+    </Grid>
+</Page>

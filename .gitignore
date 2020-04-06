@@ -10,6 +10,21 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
 
@@ -43,6 +58,11 @@ ExportedObj/
 *.opendb
 *.VC.db
 
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
 # Unity3D generated meta files
 *.pidb.meta
 *.pdb.meta
@@ -54,6 +74,24 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
+# NuGet v3's project.json files produces more ignorable files
+*.nuget.props
+*.nuget.targets
 
 # Crashlytics generated file
 crashlytics-build.properties
