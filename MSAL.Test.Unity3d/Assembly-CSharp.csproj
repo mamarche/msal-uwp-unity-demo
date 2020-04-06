@@ -107,17 +107,17 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>C:/Development/GitHub/mamarche/msal-uwp-unity-demo/MSAL.Test.Unity3d/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Development/GitHub/mamarche/msal-uwp-unity-demo/MSAL.Test.Unity3d/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Development/GitHub/mamarche/msal-uwp-unity-demo/MSAL.Test.Unity3d/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.XR.WindowsMR.Editor">
       <HintPath>C:/Development/GitHub/mamarche/msal-uwp-unity-demo/MSAL.Test.Unity3d/Library/ScriptAssemblies/Unity.XR.WindowsMR.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:/Development/GitHub/mamarche/msal-uwp-unity-demo/MSAL.Test.Unity3d/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.XR.WindowsMR">
       <HintPath>C:/Development/GitHub/mamarche/msal-uwp-unity-demo/MSAL.Test.Unity3d/Library/ScriptAssemblies/Unity.XR.WindowsMR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>C:/Development/GitHub/mamarche/msal-uwp-unity-demo/MSAL.Test.Unity3d/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -293,8 +293,8 @@
     <Reference Include="MSAL.Client.Common">
       <HintPath>C:/Development/GitHub/mamarche/msal-uwp-unity-demo/MSAL.Test.Unity3d/Assets/Plugins/MSAL.Client.Common.dll</HintPath>
     </Reference>
-    <Reference Include="MSAL.Client">
-      <HintPath>C:/Development/GitHub/mamarche/msal-uwp-unity-demo/MSAL.Test.Unity3d/Assets/Plugins/MSAL.Client.dll</HintPath>
+    <Reference Include="MSAL.Client.Placeholder">
+      <HintPath>C:/Development/GitHub/mamarche/msal-uwp-unity-demo/MSAL.Test.Unity3d/Assets/Plugins/MSAL.Client.Placeholder.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.3f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

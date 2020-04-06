@@ -358,8 +358,8 @@
     <Reference Include="MSAL.Client.Common">
       <HintPath>C:/Development/GitHub/mamarche/msal-uwp-unity-demo/MSAL.Test.Unity3d/Assets/Plugins/MSAL.Client.Common.dll</HintPath>
     </Reference>
-    <Reference Include="MSAL.Client">
-      <HintPath>C:/Development/GitHub/mamarche/msal-uwp-unity-demo/MSAL.Test.Unity3d/Assets/Plugins/MSAL.Client.dll</HintPath>
+    <Reference Include="MSAL.Client.Placeholder">
+      <HintPath>C:/Development/GitHub/mamarche/msal-uwp-unity-demo/MSAL.Test.Unity3d/Assets/Plugins/MSAL.Client.Placeholder.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>C:/Development/GitHub/mamarche/msal-uwp-unity-demo/MSAL.Test.Unity3d/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>

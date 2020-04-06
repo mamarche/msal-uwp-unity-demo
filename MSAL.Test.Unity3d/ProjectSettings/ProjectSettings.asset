@@ -603,11 +603,11 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: MSALTest
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: 
+  metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: 
-  metroCertificateIssuer: 
-  metroCertificateNotAfter: 0000000000000000
+  metroCertificateSubject: Mamarche
+  metroCertificateIssuer: Mamarche
+  metroCertificateNotAfter: 8073358dfa2ad701
   metroApplicationDescription: Test MSAL
   wsaImages: {}
   metroTileShortName: 

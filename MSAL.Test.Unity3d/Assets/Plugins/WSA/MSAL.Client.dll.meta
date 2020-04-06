@@ -74,7 +74,7 @@ PluginImporter:
       settings:
         CPU: AnyCPU
         DontProcess: true
-        PlaceholderPath: Assets/Plugins/MSAL.Client.dll
+        PlaceholderPath: 
         SDK: AnySDK
         ScriptingBackend: AnyScriptingBackend
   - first:
